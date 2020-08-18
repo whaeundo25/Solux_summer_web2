@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <!-- 글자 깨짐 방지  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +10,7 @@
     <meta name="keywords" content="메가박스, 유투브, 영화, 최신영화, 영화관, CGV, 롯데시네마, 웹스토리보이, 웹스, 사이트 만들기, 따라하기, 이미지 슬라이드">
     <title>메가박스 사이트 코딩하기</title>
     
-    <!-- CSS -->
+    <!-- 다른 파일에 위치한 css파일 참조하는 부분 -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/swiper.css">
@@ -140,7 +141,7 @@
             </div>
         </div>
     </section>
-    <!-- //banner -->
+    <!-- banner영역 -->
     
     
     <section id="movie">
@@ -705,7 +706,7 @@
     <!-- //event -->
    
     
-    <!-- 자바스크립트 라이브러리 -->
+    <!-- 외부 자바스크립트 파일 참조 -->
     <script src="js/jquery.min_1.12.4.js"></script>
     <script src="js/modernizr-custom.js"></script>
     <script src="js/ie-checker.js"></script>
@@ -722,6 +723,7 @@
                 type: 'bullets',
             },
             autoplay: {
+                //지연시간을 5초로 설정
                 delay: 5000,
             },
         });
